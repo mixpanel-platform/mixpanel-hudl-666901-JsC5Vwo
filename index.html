@@ -96,9 +96,9 @@
           
           
 // App Install Event by Campaign Source
-        event = 'App Install'
+        event = 'View Highlight'
       
-        var appInstall = MP.api.segment(event, 'Campaign Source', {
+        var appInstall = MP.api.segment(event, 'Gender', {
             from: moment().subtract(6, 'months'),
             unit: 'week'
         });
