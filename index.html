@@ -98,7 +98,7 @@
         // App Install Event by Campaign Source
         event = 'Open Application'
       
-        var appInstall = MP.api.segment(event, 'Country', {
+        var appInstall = MP.api.segment(event, 'City', {
             from: moment().subtract(6, 'months'),
             unit: 'week'
         });
