@@ -17,7 +17,7 @@
      MP.api.ready(function() {
         
         // Events Data
-        var overallData = MP.api.events('Game Played', 'App Open', 'In-App Purchase', 'App Install', 'Registration Complete', {
+        var overallData = MP.api.events('Register', 'Login', 'View Feed', 'View Top Highlights Page', 'View Content Center', {
             from: moment().subtract(6, 'months'),
             unit: 'week'
         });
