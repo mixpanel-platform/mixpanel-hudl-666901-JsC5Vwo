@@ -144,7 +144,7 @@
         var data = MP.api.query('/api/2.0/engage/revenue/', {
             from: moment().subtract(6, 'months'),
             to: moment(),
-            action: 'properties["Campaign Source"]',
+            action: 'properties["Platform"]',
             unit: 'week'
         }, {dataType:'json'})
         .done(function(json) {
